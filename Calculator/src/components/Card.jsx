@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Card() {
+function Card(name) {
   return (
-    <h1 className='text-3xl bg-green-500 p-3'>Lorem ipsum dolor sit amet.</h1>
+    <h1 className='flex text-3xl bg-green-500 p-3'>Hi, my name is {name}</h1>
   )
 }
 
